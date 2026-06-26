@@ -1190,3 +1190,23 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+
+
+@media screen and (max-width: 600px) {
+    .flowers {
+        transform: scale(0.6); /* Reduce el tamaño general de las flores */
+        margin-top: 20vh;
+    }
+    
+    .message {
+        font-size: 18px !important;
+        padding: 0 10px;
+    }
+}
+
+/* Ajustes para tablets */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .flowers {
+        transform: scale(0.8);
+    }
+}
